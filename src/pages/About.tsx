@@ -13,7 +13,7 @@ const About = () => {
             <Sparkles className="w-10 h-10 text-white" />
           </div>
         </div>
-        <h1 className="text-4xl font-bold text-gray-900">About AIWorx</h1>
+        <h1 className="text-4xl font-bold text-gray-900">About ToolBay</h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Your complete AI toolbox for writing, coding, design, and more. We're on a mission to democratize AI and make powerful tools accessible to everyone.
         </p>

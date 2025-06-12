@@ -61,9 +61,21 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Legal</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/privacy-policy" className="text-gray-400 hover:text-white">Privacy Policy</Link></li>
-              <li><Link to="/terms-conditions" className="text-gray-400 hover:text-white">Terms & Conditions</Link></li>
+              <li><Link to="#" className="text-gray-400 hover:text-white">Privacy Policy</Link></li>
+              <li><Link to="#" className="text-gray-400 hover:text-white">Terms & Conditions</Link></li>
               <li><a href="https://www.neevotech.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">Powered by Neevotech</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mb-4">Other AI Website</h3>
+            <ul className="space-y-2 text-sm">
+              <li><a href="https://www.socialmint.online/"  target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">Social Media AI Content Generator</a></li>
+              <li><a href="https://report-ai.toolbay.online/"  target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">ReportAI Buddy
+for College Students</a></li>
+
+
+<li><a href="https://daily-use-tool.online/"  target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">Daily Used Tool</a></li>
             </ul>
           </div>
         </div>

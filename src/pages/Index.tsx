@@ -144,7 +144,7 @@ const Index = () => {
   };
 
   return (
-    <div className="space-y-6 md:space-y-8 px-2 md:px-0">
+    <div className="space-y-6 md:space-y-8  ">
       {/* Hero Section */}
       <div className="text-center space-y-4 md:space-y-6 py-6 md:py-12">
         <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full px-3 md:px-4 py-2">
@@ -246,7 +246,7 @@ const Index = () => {
 
       {/* Featured Tools - Only show when not searching */}
       {!searchQuery.trim() && (
-        <section className="px-2">
+        <section className="">
           <div className="flex items-center justify-between mb-4 md:mb-6">
             <h2 className="text-xl md:text-2xl font-bold text-gray-900">Featured Tools</h2>
             <Badge variant="secondary" className="bg-yellow-100 text-yellow-800 text-xs">
@@ -294,7 +294,7 @@ const Index = () => {
 
       {/* Categories - Only show when not searching */}
       {!searchQuery.trim() && (
-        <section className="px-2">
+        <section className="">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 md:mb-6">Explore Categories</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
@@ -315,7 +315,7 @@ const Index = () => {
                       </div>
                     </div>
                   </CardHeader>
-                  <CardContent className="p-4 md:p-6 pt-0">
+                  <CardContent className="p-4  pt-0">
                     <div className="flex items-center justify-between">
                       <Badge variant="secondary" className="text-xs">
                         {category.count} tools
